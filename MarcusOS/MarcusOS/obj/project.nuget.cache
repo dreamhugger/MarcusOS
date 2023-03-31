@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "13kirWDfMMS+fTPk5/vl3nh68YgJP/ZA7Ocg7qbF7Hmo3tYpQ/91c1EUBABmXUdadQJ5Cxq1jqqnIg8Dji8NOA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Manager\\source\\repos\\MarcusOS\\MarcusOS\\MarcusOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Manager\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}
