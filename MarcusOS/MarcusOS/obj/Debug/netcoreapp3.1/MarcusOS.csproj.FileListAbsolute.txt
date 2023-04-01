@@ -14,3 +14,7 @@ C:\Users\Manager\source\repos\MarcusOS\MarcusOS\obj\Debug\netcoreapp3.1\MarcusOS
 C:\Users\Manager\source\repos\MarcusOS\MarcusOS\obj\Debug\netcoreapp3.1\MarcusOS.dll
 C:\Users\Manager\source\repos\MarcusOS\MarcusOS\obj\Debug\netcoreapp3.1\MarcusOS.pdb
 C:\Users\Manager\source\repos\MarcusOS\MarcusOS\obj\Debug\netcoreapp3.1\MarcusOS.genruntimeconfig.cache
+C:\Users\Manager\source\repos\MarcusOS\MarcusOS\obj\Debug\netcoreapp3.1\MarcusOS.Form2.resources
+C:\Users\Manager\source\repos\MarcusOS\MarcusOS\obj\Debug\netcoreapp3.1\MarcusOS.Form3.resources
+C:\Users\Manager\source\repos\MarcusOS\MarcusOS\obj\Debug\netcoreapp3.1\MarcusOS.Form4.resources
+C:\Users\Manager\source\repos\MarcusOS\MarcusOS\obj\Debug\netcoreapp3.1\MarcusOS.Properties.Resources.resources

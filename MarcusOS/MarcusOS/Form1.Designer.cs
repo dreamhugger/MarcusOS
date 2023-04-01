@@ -81,6 +81,7 @@ namespace MarcusOS
             trojanexeToolStripMenuItem.BackColor = System.Drawing.Color.Plum;
             trojanexeToolStripMenuItem.Name = "trojanexeToolStripMenuItem";
             resources.ApplyResources(trojanexeToolStripMenuItem, "trojanexeToolStripMenuItem");
+            trojanexeToolStripMenuItem.Click += trojanexeToolStripMenuItem_Click;
             // 
             // calculadoraToolStripMenuItem
             // 
@@ -93,6 +94,7 @@ namespace MarcusOS
             editorDeTextoToolStripMenuItem.BackColor = System.Drawing.Color.Plum;
             editorDeTextoToolStripMenuItem.Name = "editorDeTextoToolStripMenuItem";
             resources.ApplyResources(editorDeTextoToolStripMenuItem, "editorDeTextoToolStripMenuItem");
+            editorDeTextoToolStripMenuItem.Click += editorDeTextoToolStripMenuItem_Click;
             // 
             // desligarToolStripMenuItem
             // 
@@ -122,6 +124,7 @@ namespace MarcusOS
             resources.ApplyResources(pictureBox1, "pictureBox1");
             pictureBox1.Name = "pictureBox1";
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // label1
             // 
@@ -145,6 +148,7 @@ namespace MarcusOS
             resources.ApplyResources(pictureBox3, "pictureBox3");
             pictureBox3.Name = "pictureBox3";
             pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // label3
             // 
