@@ -103,6 +103,7 @@ namespace MarcusOS
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "Form2";
+            ShowIcon = false;
             Text = "Textos";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();

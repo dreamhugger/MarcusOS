@@ -29,10 +29,8 @@ namespace MarcusOS
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             pictureBox1 = new System.Windows.Forms.PictureBox();
-            timer1 = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -47,28 +45,24 @@ namespace MarcusOS
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // timer1
-            // 
-            timer1.Enabled = true;
-            timer1.Interval = 5000;
-            timer1.Tick += timer1_Tick;
-            // 
             // Form4
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            BackColor = System.Drawing.Color.Thistle;
             ClientSize = new System.Drawing.Size(172, 188);
-            ControlBox = false;
             Controls.Add(pictureBox1);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "Form4";
-            Text = "VOCÊ FOI HACKEADO!";
-            WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            ShowIcon = false;
+            ShowInTaskbar = false;
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Timer timer1;
     }
 }

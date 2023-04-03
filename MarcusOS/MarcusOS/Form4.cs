@@ -14,11 +14,5 @@ namespace MarcusOS
         {
             InitializeComponent();
         }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            Form1 OS = new Form1();
-            OS.Close();
-        }
     }
 }

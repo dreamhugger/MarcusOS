@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Manager\\source\\repos\\MarcusOS\\MarcusOS\\MarcusOS.csproj",
+      "projectUniqueName": "C:\\Users\\Manager\\Desktop\\MarcusOS\\MarcusOS\\MarcusOS.csproj",
       "projectName": "MarcusOS",
-      "projectPath": "C:\\Users\\Manager\\source\\repos\\MarcusOS\\MarcusOS\\MarcusOS.csproj",
+      "projectPath": "C:\\Users\\Manager\\Desktop\\MarcusOS\\MarcusOS\\MarcusOS.csproj",
       "packagesPath": "C:\\Users\\Manager\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Manager\\source\\repos\\MarcusOS\\MarcusOS\\obj\\",
+      "outputPath": "C:\\Users\\Manager\\Desktop\\MarcusOS\\MarcusOS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

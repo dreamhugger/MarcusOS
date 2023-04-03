@@ -81,13 +81,13 @@ namespace MarcusOS
             blocoDeNotasToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             blocoDeNotasToolStripMenuItem.Enabled = false;
             blocoDeNotasToolStripMenuItem.Name = "blocoDeNotasToolStripMenuItem";
-            blocoDeNotasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            blocoDeNotasToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             blocoDeNotasToolStripMenuItem.Text = "Bloco de Notas";
             // 
             // editorDeCósdigoToolStripMenuItem
             // 
             editorDeCósdigoToolStripMenuItem.Name = "editorDeCósdigoToolStripMenuItem";
-            editorDeCósdigoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            editorDeCósdigoToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             editorDeCósdigoToolStripMenuItem.Text = "Editor de Código";
             editorDeCósdigoToolStripMenuItem.Click += editorDeCósdigoToolStripMenuItem_Click;
             // 
@@ -117,6 +117,7 @@ namespace MarcusOS
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "Form3";
+            ShowIcon = false;
             Text = "Textos";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();

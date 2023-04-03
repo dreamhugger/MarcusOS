@@ -15,14 +15,14 @@ namespace MarcusOS
             InitializeComponent();
         }
 
-        private void textoToolStripMenuItem_Click(object sender, EventArgs e)
+        private void textoToolStripMenuItem_Click(object sender, EventArgs e) //Abre o formulário 3 (mockup de editor de texto) e fecha esse formulário.
         {
             Form3 Textos = new Form3();
             Textos.Show();
             this.Close();
         }
 
-        private void novoToolStripMenuItem_Click(object sender, EventArgs e)
+        private void novoToolStripMenuItem_Click(object sender, EventArgs e) //Apaga o texto da caixa de texto.
         {
             richTextBox1.Text = string.Empty;
         }

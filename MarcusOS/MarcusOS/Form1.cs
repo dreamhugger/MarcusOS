@@ -18,43 +18,44 @@ namespace MarcusOS
             InitializeComponent();
         }
 
-        private void desligarToolStripMenuItem_Click_1(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
+        private void timer1_Tick_1(object sender, EventArgs e) //Mostra e mantém atualizado o horário atual do computador.
         {
             toolStripLabel1.Text = DateTime.Now.ToString();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void desligarToolStripMenuItem_Click(object sender, EventArgs e) //Fecha a aplicação.
+        {
+            this.Close();
+        }
+
+        private void editorDeTextoToolStripMenuItem_Click_1(object sender, EventArgs e) //Abre o formulário 3 (mockup de editor de texto).
         {
             Form3 Textos = new Form3();
             Textos.Show();
         }
 
-        private void editorDeTextoToolStripMenuItem_Click(object sender, EventArgs e)
+        private void trojanexeToolStripMenuItem_Click_1(object sender, EventArgs e) //Abre o formulário 4 (gif/mockup de vírus).
+        {
+            Form4 Barata = new Form4();
+            Barata.Show();
+        }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e) //Abre o formulário 4 (gif/mockup de vírus).
+        {
+            Form4 Barata = new Form4();
+            Barata.Show();
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e) //Abre o formulário 3 (mockup de editor de texto).
         {
             Form3 Textos = new Form3();
             Textos.Show();
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        private void iDEToolStripMenuItem_Click(object sender, EventArgs e) //Abre o formulário 2 (mockup de IDE).
         {
-            Form4 Virus = new Form4();
-            Virus.Show();
-        }
-
-        private void trojanexeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form4 Virus = new Form4();
-            Virus.Show();
+            Form2 IDE = new Form2();
+            IDE.Show();
         }
     }
 }
